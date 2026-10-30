@@ -35,6 +35,8 @@ Three ready-to-use design systems. Each one is a complete, working four-page web
 
 The kits are samples. [GUIDE.md](GUIDE.md) takes you from a sample to your own style guide, design skill and storybook in Claude chat, then to Claude Code, localhost, and a pull request.
 
+New to Git, pull requests, domains or CMSs? [GLOSSARY.md](GLOSSARY.md) explains every term in plain language, plus the prompts we use to learn anything new with Claude.
+
 ## The rule
 
 Build only from the design system. No one-off colours, sizes or components on a page. A new value goes into `tokens.css` first, then the pages use it.

@@ -11,6 +11,8 @@ The kits in this repo are samples. This guide takes you from a sample to your ow
 | The source of truth | GitHub | Holds the design system and the site. If it's not in Git, it doesn't exist. |
 | The window | GitHub Desktop | See changes, review and merge pull requests without the command line |
 
+**New words?** Every term in this guide (Git, push, pull request, domain, CMS and more) is explained in plain language in [GLOSSARY.md](GLOSSARY.md). When in doubt, ask Claude: *"Explain this like I'm a third grader, then walk me through it one step at a time."*
+
 **The rule:** build only from the design system. A new colour, size or component goes into the system first, then the pages use it.
 
 ---
