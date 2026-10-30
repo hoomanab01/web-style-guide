@@ -1,6 +1,6 @@
 ---
 name: clay-design-system
-description: Use when designing or building any page, section or component for this website. Builds only from the Clay design system in this repo.
+description: Use when designing or building any page, section or component for this website. Builds only from the Clay design system.
 ---
 
 # Clay design system
@@ -18,6 +18,7 @@ Source of truth: `assets/tokens.css` (values) and `assets/components.css` (compo
 7. Text contrast at least 4.5:1. Errors are shown in words, not colour alone.
 8. Motion is subtle: elements rise and fade in once with `data-reveal`. Respect reduced motion.
 9. No fake testimonials, reviews or numbers. Placeholders stay visibly marked until replaced with real ones.
+10. Design decisions are made in Claude chat and recorded in the design system or a prototype. When building (Claude Code), never decide design: if something isn't defined, stop and ask with two or three options.
 
 ## Components (class names)
 - Layout: `container`, `section`, `section--surface`, `section--inverse`, `section--tight`, `section-head`, `grid grid--2|grid--3`, `split`, `stack`

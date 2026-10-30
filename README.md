@@ -21,25 +21,26 @@ Three ready-to-use design systems. Each one is a complete, working four-page web
 | `assets/components.css` | All components, built from tokens only |
 | `SKILL.md` | The design rules, written for Claude |
 | `CLAUDE.md` | The context file. Point every new chat or Claude Code session at it. |
+| `prototypes/` | Where page designs from Claude chat go |
 | `netlify.toml` | Lets Netlify publish the folder as it is |
 
 ## How to use a kit
 
 1. Pick a kit and open its `storybook.html` and `index.html` in your browser.
-2. In Claude, start a new chat (ideally in a Project). Attach the kit's `CLAUDE.md`, `SKILL.md`, `assets/tokens.css` and `assets/components.css`.
-3. Ask Claude to rewrite the sample pages with your business, your words and your prices, keeping to the system.
-4. Make it yours: ask Claude to change the tokens (accent colour, fonts, corner radius). Every page follows.
-5. Drag the kit folder onto Netlify. Your site is live, and the contact form works.
+2. Create two repositories of your own: `yourbrand-design-system` for the design system and page designs, `yourbrand-website` for the site. Copy the kit's files into them.
+3. Connect Claude and Netlify to your GitHub, set up a Claude Project with the context file, and build around the loop.
 
-## Next: make it your own
+[GUIDE.md](GUIDE.md) walks you through every step. [PROMPTS.md](PROMPTS.md) has every prompt, ready to copy. [GLOSSARY.md](GLOSSARY.md) explains every term in plain language.
 
-The kits are samples. [GUIDE.md](GUIDE.md) takes you from a sample to your own style guide, design skill and storybook in Claude chat, then to Claude Code, localhost, and a pull request.
+## The loop
 
-New to Git, pull requests, domains or CMSs? [GLOSSARY.md](GLOSSARY.md) explains every term in plain language, plus the prompts we use to learn anything new with Claude.
+Design in chat, update the system, push to Git, build with Claude Code, test on localhost, pull request. Not OK at the test? The report goes back to chat.
 
-## The rule
+## The rules
 
 Build only from the design system. No one-off colours, sizes or components on a page. A new value goes into `tokens.css` first, then the pages use it.
+
+Claude Code never makes a design decision. If something isn't defined, it stops and asks with options.
 
 ## Notes
 

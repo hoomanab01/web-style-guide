@@ -11,14 +11,18 @@ Bold and technical. For software, startups and product launches.
 | `assets/components.css` | All components. Built from tokens only. |
 | `SKILL.md` | The design rules, written for Claude |
 | `CLAUDE.md` | The context file. Start every new chat or Claude Code session by pointing at it. |
+| `prototypes/` | Where page designs from Claude chat go |
 | `netlify.toml` | Lets Netlify publish the folder as it is |
 
-## Use it tonight
-1. Open `storybook.html` and `index.html` in your browser to see the system.
-2. In Claude, start a new chat (ideally in a Project). Attach `CLAUDE.md`, `SKILL.md`, `assets/tokens.css` and `assets/components.css`.
-3. Ask Claude to rewrite the sample pages with your business, your words and your prices, keeping to the system.
-4. Make it yours: ask Claude to change the tokens (accent colour, fonts, radius). Every page follows.
-5. Drag the whole folder onto Netlify. Your site is live, and the contact form works.
+## Use it
+This kit is a starting point. You split it into two repositories of your own:
+
+| Repository | Copy in from this kit |
+|---|---|
+| `yourbrand-design-system` | `assets/`, `storybook.html`, `SKILL.md`, `CLAUDE.md`, `prototypes/` |
+| `yourbrand-website` | the pages (`*.html`), `assets/`, `netlify.toml`, `CLAUDE.md` |
+
+Then follow [GUIDE.md](../GUIDE.md) at the root of this repo. Every prompt is in [PROMPTS.md](../PROMPTS.md).
 
 ## Fonts
 Self-hosted in `assets/fonts`, so no requests go to Google (good for GDPR). All fonts are under the SIL Open Font License; licence files are included.
