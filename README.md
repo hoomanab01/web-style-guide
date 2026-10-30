@@ -30,7 +30,7 @@ Three ready-to-use design systems. Each one is a complete, working four-page web
 2. Create two repositories of your own: `yourbrand-design-system` for the design system and page designs, `yourbrand-website` for the site. Copy the kit's files into them.
 3. Connect Claude and Netlify to your GitHub, set up a Claude Project with the context file, and build around the loop.
 
-[GUIDE.md](GUIDE.md) walks you through every step. [PROMPTS.md](PROMPTS.md) has every prompt, ready to copy. [GLOSSARY.md](GLOSSARY.md) explains every term in plain language.
+The workshop slides are in [ship-a-live-website-deck.pdf](ship-a-live-website-deck.pdf). [GUIDE.md](GUIDE.md) walks you through every step. [PROMPTS.md](PROMPTS.md) has every prompt, ready to copy. [GLOSSARY.md](GLOSSARY.md) explains every term in plain language.
 
 ## The loop
 
