@@ -1,0 +1,82 @@
+/* Clay · design tokens. The only place values live. */
+@font-face{font-family:"DM Serif Display";src:url("fonts/dm-serif-display-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Figtree";src:url("fonts/figtree-latin-wght-normal.woff2") format("woff2");font-weight:300 900;font-style:normal;font-display:swap;}
+:root{
+  /* Colour */
+  --color-bg: #FBF6EF;
+  --color-surface: #F3E7D8;
+  --color-card: #FFFDF9;
+  --color-text: #2E2219;
+  --color-heading: #2A1E15;
+  --color-muted: #6E5C4C;
+  --color-border: rgba(46,34,25,.12);
+  --color-border-strong: rgba(46,34,25,.4);
+  --color-accent: #A9461F;
+  --color-accent-hover: #8E3A19;
+  --color-accent-text: #FFFFFF;
+  --color-accent-strong: #97401C;
+  --color-accent-soft: #F6DECF;
+  --color-inverse-bg: #3A2A1E;
+  --color-inverse-text: #FBF6EF;
+  --color-inverse-muted: #D9C7B5;
+  --color-inverse-border: rgba(251,246,239,.4);
+  --color-inverse-action: #FBF6EF;
+  --color-inverse-action-hover: #F3E7D8;
+  --color-inverse-action-text: #3A2A1E;
+  --color-nav-bg: rgba(251,246,239,.88);
+  --color-footer-bg: #F3E7D8;
+  --color-footer-text: #2E2219;
+  --color-footer-border: rgba(46,34,25,.14);
+  --color-input-bg: #FFFDF9;
+  --color-focus: #A9461F;
+  --color-error: #B42318;
+
+  /* Type */
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: "Figtree", system-ui, sans-serif;
+  --font-label: "Figtree", system-ui, sans-serif;
+  --weight-display: 400;
+  --weight-button: 600;
+  --tracking-display: -0.01em;
+  --tracking-label: 0.02em;
+  --label-case: none;
+  --leading-display: 1.08;
+
+  /* Shape */
+  --radius-button: 999px;
+  --radius-card: 24px;
+  --radius-input: 14px;
+  --radius-pill: 999px;
+  --radius-mark: 50%;
+  --radius-bullet: 50%;
+  --shadow-card: 0 1px 2px rgba(46,34,25,.04), 0 12px 32px -16px rgba(46,34,25,.18);
+
+  /* Spacing scale */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 24px;
+  --space-6: 32px; --space-7: 48px; --space-8: 72px; --space-9: 112px;
+  --gutter: clamp(20px, 4vw, 40px);
+  --container: 1160px;
+  --section-pad: clamp(72px, 10vw, 128px);
+  --hero-pad: clamp(72px, 12vw, 160px);
+  --hero-width: 52rem;
+
+  /* Type scale (fluid) */
+  --text-display: clamp(2.75rem, 7vw, 5.5rem);
+  --text-h1: clamp(2.4rem, 5.5vw, 4.25rem);
+  --text-h2: clamp(1.9rem, 3.8vw, 3rem);
+  --text-h3: clamp(1.3rem, 2vw, 1.6rem);
+  --text-lead: clamp(1.1rem, 1.6vw, 1.3rem);
+  --text-body: 1rem;
+  --text-small: .875rem;
+  --leading-body: 1.6;
+
+  /* Lines */
+  --border-width: 1px;
+  --border-width-strong: 2px;
+
+  /* Motion */
+  --motion-fast: .18s;
+  --motion-slow: .7s;
+  --motion-ease: cubic-bezier(.2,.7,.2,1);
+  --motion-rise: 16px;
+}
