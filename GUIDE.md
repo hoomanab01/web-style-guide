@@ -13,7 +13,7 @@ The kits in this repo are samples. This guide takes you from a sample to your ow
 
 **New words?** Every term in this guide (Git, push, pull request, domain, CMS and more) is explained in plain language in [GLOSSARY.md](GLOSSARY.md). When in doubt, ask Claude: *"Explain this like I'm a third grader, then walk me through it one step at a time."*
 
-**The rule:** build only from the design system. A new colour, size or component goes into the system first, then the pages use it.
+**The rules:** build only from the design system. Claude Code never makes a design decision: if something isn't defined, it stops and asks. A new colour, size or component goes into the system first, then the pages use it.
 
 ---
 
@@ -92,7 +92,7 @@ Update the **Current state** section of `CLAUDE.md` before you push.
 
 Ask Claude chat to write the prompt for Claude Code, so the brain briefs the hands:
 
-> Write a prompt for Claude Code to build the [home] page from prototypes/[home].html in my repo. It should read CLAUDE.md and SKILL.md first, use only design system tokens and components, run the site locally, test on phone and desktop, and report back before changing anything outside the page.
+> Write a prompt for Claude Code to build the [home] page from prototypes/[home].html in my repo. It should read CLAUDE.md and SKILL.md first, use only design system tokens and components, never make a design decision itself (if something isn't defined, stop and ask with options), run the site locally, test on phone and desktop, and report back before changing anything outside the page.
 
 Then, in a terminal inside your repo:
 
