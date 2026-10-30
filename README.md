@@ -31,6 +31,10 @@ Three ready-to-use design systems. Each one is a complete, working four-page web
 4. Make it yours: ask Claude to change the tokens (accent colour, fonts, corner radius). Every page follows.
 5. Drag the kit folder onto Netlify. Your site is live, and the contact form works.
 
+## Next: make it your own
+
+The kits are samples. [GUIDE.md](GUIDE.md) takes you from a sample to your own style guide, design skill and storybook in Claude chat, then to Claude Code, localhost, and a pull request.
+
 ## The rule
 
 Build only from the design system. No one-off colours, sizes or components on a page. A new value goes into `tokens.css` first, then the pages use it.
